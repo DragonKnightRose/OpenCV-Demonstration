@@ -1,0 +1,16 @@
+﻿Build started 4/27/2014 11:53:01 PM.
+     1>Project "C:\Users\Wendi\Documents\Visual Studio 2012\Projects\myVideoWriter\myVideoWriter\myVideoWriter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv249\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt myVideoWriter.cpp
+         myVideoWriter.cpp
+     1>c:\users\wendi\documents\visual studio 2012\projects\myvideowriter\myvideowriter\myvideowriter.cpp(54): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\wendi\documents\visual studio 2012\projects\myvideowriter\myvideowriter\myvideowriter.cpp(74): warning C4129: 'm' : unrecognized character escape sequence
+     1>c:\users\wendi\documents\visual studio 2012\projects\myvideowriter\myvideowriter\myvideowriter.cpp(127): warning C4129: 'm' : unrecognized character escape sequence
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Wendi\Documents\Visual Studio 2012\Projects\myVideoWriter\Debug\myVideoWriter.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv249\build\x86\vc11\lib opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_ml249d.lib opencv_video249d.lib opencv_features2d249d.lib opencv_calib3d249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Wendi\Documents\Visual Studio 2012\Projects\myVideoWriter\Debug\myVideoWriter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Wendi\Documents\Visual Studio 2012\Projects\myVideoWriter\Debug\myVideoWriter.lib" /MACHINE:X86 Debug\myVideoWriter.obj
+         myVideoWriter.vcxproj -> C:\Users\Wendi\Documents\Visual Studio 2012\Projects\myVideoWriter\Debug\myVideoWriter.exe
+     1>Done Building Project "C:\Users\Wendi\Documents\Visual Studio 2012\Projects\myVideoWriter\myVideoWriter\myVideoWriter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.41
